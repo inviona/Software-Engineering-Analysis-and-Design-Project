@@ -3,7 +3,8 @@
 Energy Management Software (EMS)
 Energy Management Software (EMS) is a powerful solution designed to help companies monitor, optimize, and trade energy efficiently. It ensures stable power, reduces energy losses, and cuts costs by using real-time monitoring, automation, and AI-driven analytics.
 
-Key Functionalities
+**Key Functionalities**
+
 1-Energy Monitoring & Stability
 Tracks voltage, frequency, and power flow using sensors and smart meters.
 Detects instability or inefficiencies and sends alerts or automatic adjustments.
@@ -24,6 +25,7 @@ Uses machine learning to predict equipment failures before they happen.
 Reduces downtime by automating maintenance schedules.
 Improves system reliability and extends equipment lifespan.
 
-How It Works
+**How It Works**
+
 EMS collects real-time data from PMUs, SCADA systems, and smart meters, analyzes it using AI and algorithms, and provides actionable insights through an intuitive dashboard. Companies can monitor live data, receive smart recommendations, and automate key decisions, making energy management efficient, stable, and cost-effective.
 
