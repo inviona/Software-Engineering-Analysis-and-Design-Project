@@ -1,31 +1,65 @@
-# Software-Engineering-Analysis-and-Design-Project
+# Albanian Public Transportation Management System
 
-Energy Management Software (EMS)
-Energy Management Software (EMS) is a powerful solution designed to help companies monitor, optimize, and trade energy efficiently. It ensures stable power, reduces energy losses, and cuts costs by using real-time monitoring, automation, and AI-driven analytics.
+A comprehensive digital solution for managing and navigating public transportation across Albania.
 
-**Key Functionalities**
+## System Architecture
 
-1-Energy Monitoring & Stability
-Tracks voltage, frequency, and power flow using sensors and smart meters.
-Detects instability or inefficiencies and sends alerts or automatic adjustments.
-Ensures compliance with market standards (e.g., 50Hz frequency in Europe).
+The system consists of:
+- Mobile applications (iOS/Android)
+- Web platform
+- Backend infrastructure
+- Admin dashboard
+- API services for third-party integration
 
-2-Loss Reduction & Cost Optimization
-Identifies energy waste in transmission and distribution.
-Uses AI to suggest improvements and reduce unnecessary power loss.
-Optimizes energy usage to lower operational costs.
+## Key Features
 
-3-Energy Trading & Market Integration
-Monitors market prices and suggests best trading times.
-Automates buying and selling decisions based on supply and demand.
-Helps companies maximize profits while ensuring cost-effective consumption.
+### Route Planning & Navigation
+- Smart route finder with multimodal transport integration
+- Customizable preferences (time, transfers, accessibility, cost)
+- Dynamic alternative routes during delays
+- Door-to-door directions with walking segments
 
-4-Predictive Maintenance & Automation
-Uses machine learning to predict equipment failures before they happen.
-Reduces downtime by automating maintenance schedules.
-Improves system reliability and extends equipment lifespan.
+### Real-Time Tracking
+- Live GPS tracking of vehicles
+- Estimated arrival times
+- Crowd level indicators
+- Service disruption alerts
 
-**How It Works**
+### Digital Ticketing & Payments
+- In-app ticket purchases
+- QR code validation
+- Subscription management
+- Family/group ticketing options
 
-EMS collects real-time data from PMUs, SCADA systems, and smart meters, analyzes it using AI and algorithms, and provides actionable insights through an intuitive dashboard. Companies can monitor live data, receive smart recommendations, and automate key decisions, making energy management efficient, stable, and cost-effective.
+### User Experience
+- Saved routes and favorites
+- Personalized alerts
+- Multilingual support (Albanian, English, Italian)
+- Journey history
+- Accessibility options
 
+### Traffic & Data Management
+- AI-based predictions for delays
+- Accident and roadwork alerts
+- Interactive maps with congestion indicators
+- Offline functionality
+
+### Administrative & Community Features
+- Operator dashboard with analytics
+- User reports and ratings
+- Data-driven transit planning
+- Fleet management tools
+
+### Innovative Add-ons
+- Tourism integration
+- Carbon footprint calculator
+- Rural connectivity focus
+- Cross-border journey planning
+- Weather-adaptive routing
+- Event-based planning
+- Integration with bike/scooter rentals
+- Voice assistant for accessibility
+
+## Implementation Goals
+
+This system aims to transform public transportation in Albania by making transit more accessible, efficient, and user-friendly while providing authorities with valuable optimization data.
