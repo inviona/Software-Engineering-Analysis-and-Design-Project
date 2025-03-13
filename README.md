@@ -1,4 +1,4 @@
-# Albanian Public Transportation Management System
+# Tirana's Public Transportation Management System
 
 A comprehensive digital solution for managing and navigating public transportation across Albania.
 
