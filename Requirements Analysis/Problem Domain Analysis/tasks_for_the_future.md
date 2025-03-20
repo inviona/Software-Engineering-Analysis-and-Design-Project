@@ -5,31 +5,31 @@
 - **Document the current transportation processes from end to end**
 - **Create flowcharts of how users currently:**
 
-   1. Plan journeys
--User checks schedules online or at a station.
--User identifies the best route (via maps, apps, or paper schedules).
--User considers multiple transport modes if necessary.
--User estimates travel time.
+## Plan journeys
+   -User checks schedules online or at a station.
+   -User identifies the best route (via maps, apps, or paper schedules).
+   -User considers multiple transport modes if necessary.
+   -User estimates travel time.
 
-   2.Purchase tickets
+## Purchase tickets
     -User selects a ticket type (single, round-trip, pass, etc.).
     -User purchases the ticket (cash, card, mobile app, vending machine).
     -Ticket is validated (QR code, RFID, paper ticket).
     -User keeps the ticket for boarding.
   
-   3.Board vehicles
+## Board vehicles
     -User arrives at the station or stop.
     -User checks real-time updates (if available).
     -Vehicle arrives, and the user validates the ticket.
     -User finds a seat or designated standing area.
   
-   4.Transfer between routes/modes
+## Transfer between routes/modes
     -User determines where to transfer.
     -User ensures they have the correct ticket or pass.
     -User navigates between different transport modes (bus, train, metro).
     -[User revalidates the ticket if required.
   
-   5.Receive service updates
+## Receive service updates
     -User receives notifications about delays, route changes, or disruptions.
     -Updates may come from apps, announcements, station displays, or staff.
     -User adjusts travel plans accordingly.
