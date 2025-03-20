@@ -6,16 +6,16 @@
 - **Create flowcharts of how users currently:**
 
 ## Plan journeys
-   -User checks schedules online or at a station.
-   -User identifies the best route (via maps, apps, or paper schedules).
-   -User considers multiple transport modes if necessary.
-   -User estimates travel time.
+- **User checks schedules online or at a station.**
+- **User identifies the best route (via maps, apps, or paper schedules).**
+- **User considers multiple transport modes if necessary.**
+- **User estimates travel time.**
 
 ## Purchase tickets
-    -User selects a ticket type (single, round-trip, pass, etc.).
-    -User purchases the ticket (cash, card, mobile app, vending machine).
-    -Ticket is validated (QR code, RFID, paper ticket).
-    -User keeps the ticket for boarding.
+   - User selects a ticket type (single, round-trip, pass, etc.).
+   - User purchases the ticket (cash, card, mobile app, vending machine).
+   - Ticket is validated (QR code, RFID, paper ticket).
+   - User keeps the ticket for boarding.
   
 ## Board vehicles
     -User arrives at the station or stop.
