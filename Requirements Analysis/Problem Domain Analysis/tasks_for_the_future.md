@@ -18,21 +18,21 @@
    - User keeps the ticket for boarding.
   
 ## Board vehicles
-    -User arrives at the station or stop.
-    -User checks real-time updates (if available).
-    -Vehicle arrives, and the user validates the ticket.
-    -User finds a seat or designated standing area.
+   - User arrives at the station or stop.
+   - User checks real-time updates (if available).
+   - Vehicle arrives, and the user validates the ticket.
+   - User finds a seat or designated standing area.
   
 ## Transfer between routes/modes
-    -User determines where to transfer.
-    -User ensures they have the correct ticket or pass.
-    -User navigates between different transport modes (bus, train, metro).
-    -[User revalidates the ticket if required.
+   - User determines where to transfer.
+   - User ensures they have the correct ticket or pass.
+   - User navigates between different transport modes (bus, train, metro).
+   - User revalidates the ticket if required.
   
 ## Receive service updates
-    -User receives notifications about delays, route changes, or disruptions.
-    -Updates may come from apps, announcements, station displays, or staff.
-    -User adjusts travel plans accordingly.
+   - User receives notifications about delays, route changes, or disruptions.
+   - Updates may come from apps, announcements, station displays, or staff.
+   - User adjusts travel plans accordingly.
 
 ## Information Flow Analysis
 
@@ -53,17 +53,17 @@
 
 ## Create a domain dictionary
 ## Key Terms:
--Real-Time Tracking: Live monitoring of vehicle locations.
--Journey Planning: Process of identifying the best route options.
--Fare Integration: A system where one ticket/pass is valid for multiple transport modes.
--Multi-Modal Transport: Combining different transportation types (bus, metro, train) in a journey.
--Headway: The time gap between two consecutive transit vehicles on the same route.
--Transit Hub: A central station where passengers can transfer between multiple transport modes.
--API Integration: Connecting external services (e.g., GPS, payment gateways) to the system.
--Fare Zone System: A pricing model where fares are based on travel distance or zones.
--AVL (Automatic Vehicle Location): GPS-based system for tracking public transport vehicles.
--GTFS (General Transit Feed Specification): Standard data format used for transit schedules and real-time updates.
--ADA Compliance: Ensuring public transportation is accessible for individuals with disabilities.
+   - Real-Time Tracking: Live monitoring of vehicle locations.
+   - Journey Planning: Process of identifying the best route options.
+   - Fare Integration: A system where one ticket/pass is valid for multiple transport modes.
+   - Multi-Modal Transport: Combining different transportation types (bus, metro, train) in a journey.
+   - Headway: The time gap between two consecutive transit vehicles on the same route.
+   - Transit Hub: A central station where passengers can transfer between multiple transport modes.
+   - API Integration: Connecting external services (e.g., GPS, payment gateways) to the system.
+   - Fare Zone System: A pricing model where fares are based on travel distance or zones.
+   - AVL (Automatic Vehicle Location): GPS-based system for tracking public transport vehicles.
+   - GTFS (General Transit Feed Specification): Standard data format used for transit schedules and real-time updates.
+   - ADA Compliance: Ensuring public transportation is accessible for individuals with disabilities.
 
 
 - **Define all specialized terms used in public transportation**
