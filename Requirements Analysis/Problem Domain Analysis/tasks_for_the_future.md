@@ -5,7 +5,7 @@
 - **Document the current transportation processes from end to end**
 - **Create flowcharts of how users currently:**
 
-  1. Plan journeys
+   1. Plan journeys
 -User checks schedules online or at a station.
 -User identifies the best route (via maps, apps, or paper schedules).
 -User considers multiple transport modes if necessary.
