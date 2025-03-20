@@ -28,6 +28,6 @@
   - Lack of real-time updates
   - Inadequate accessibility features
 
-## Creaate an domain dictionary
+## Create a domain dictionary
 
 - **Define all specialized terms used in public transportation**
