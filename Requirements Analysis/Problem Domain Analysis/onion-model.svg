@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <!-- Title -->
+  <text x="550" y="20" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">'Onion' Model of Stakeholders</text>
+  
+  <!-- Circles -->
+  <circle cx="400" cy="400" r="100" fill="white" stroke="#D9E8F5" stroke-width="2"/>
+  <circle cx="400" cy="400" r="200" fill="none" stroke="#D9E8F5" stroke-width="2"/>
+  <circle cx="400" cy="400" r="300" fill="none" stroke="#D9E8F5" stroke-width="2"/>
+  <circle cx="400" cy="400" r="375" fill="none" stroke="#D9E8F5" stroke-width="2"/>
+  
+  <!-- Circle Labels -->
+  <text x="400" y="380" font-family="Arial" font-size="18" fill="#B22222" font-weight="bold" text-anchor="middle">The</text>
+  <text x="400" y="405" font-family="Arial" font-size="18" fill="#B22222" font-weight="bold" text-anchor="middle">Product</text>
+  
+  <text x="400" y="150" font-family="Arial" font-size="16" fill="#B22222" font-weight="bold" text-anchor="middle">The System</text>
+  <text x="400" y="265" font-family="Arial" font-size="16" fill="#B22222" font-weight="bold" text-anchor="middle">The Containing System</text>
+  <text x="400" y="80" font-family="Arial" font-size="16" fill="#B22222" font-weight="bold" text-anchor="middle">The Wider Environment</text>
+  
+  <!-- Stakeholders in The System (Inner Circle) -->
+  <!-- Public Transportation Users -->
+  <circle cx="400" cy="300" r="15" fill="#0000FF"/>
+  <text x="400" y="335" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Public Transportation</text>
+  <text x="400" y="350" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Users</text>
+  
+  <!-- IT Support -->
+  <circle cx="340" cy="450" r="15" fill="#0000FF"/>
+  <text x="340" y="475" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">IT Support</text>
+  
+  <!-- Operators/Drivers -->
+  <circle cx="460" cy="450" r="15" fill="#0000FF"/>
+  <text x="460" y="475" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Operators/Drivers</text>
+  
+  <!-- Stakeholders in The Containing System (Middle Circle) -->
+  <!-- Transit Authority Management -->
+  <circle cx="400" cy="200" r="15" fill="#0000FF"/>
+  <text x="400" y="225" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Public Transportation</text>
+  <text x="400" y="240" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Administration</text>
+  
+  <!-- City Officials -->
+  <circle cx="250" cy="300" r="15" fill="#0000FF"/>
+  <text x="250" y="325" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">City Government</text>
+  <text x="250" y="340" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Officials</text>
+  
+  <!-- System Investors -->
+  <circle cx="550" cy="300" r="15" fill="#0000FF"/>
+  <text x="550" y="325" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">System Investors/</text>
+  <text x="550" y="340" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Funders</text>
+  
+  <!-- Stakeholders in The Wider Environment (Outer Circle) -->
+  <!-- National Government -->
+  <circle cx="520" cy="150" r="15" fill="#0000FF"/>
+  <text x="520" y="175" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">National</text>
+  <text x="520" y="190" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Government</text>
+  
+  <!-- Tourism Industry -->
+  <circle cx="200" cy="200" r="15" fill="#0000FF"/>
+  <text x="200" y="225" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Tourism</text>
+  <text x="200" y="240" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Industry</text>
+  
+  <!-- Local Businesses -->
+  <circle cx="575" cy="400" r="15" fill="#0000FF"/>
+  <text x="575" y="425" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Local</text>
+  <text x="575" y="440" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Businesses</text>
+  
+  <!-- Disabled -->
+  <circle cx="225" cy="400" r="15" fill="#0000FF"/>
+  <text x="225" y="425" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Disabled</text>
+  <text x="225" y="440" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Citizens</text>
+  
+  <!-- Environmental Groups -->
+  <circle cx="650" cy="300" r="15" fill="#FF0000"/>
+  <text x="650" y="325" font-family="Arial" font-size="12" fill="#FF0000" text-anchor="middle">Environmental</text>
+  <text x="650" y="340" font-family="Arial" font-size="12" fill="#FF0000" text-anchor="middle">Groups</text>
+  
+  <!-- Third Party Developers -->
+  <circle cx="250" cy="500" r="15" fill="#0000FF"/>
+  <text x="250" y="525" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Third-party</text>
+  <text x="250" y="540" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Developers</text>
+  
+  <!-- Traffic Police -->
+  <circle cx="400" cy="550" r="15" fill="#0000FF"/>
+  <text x="400" y="575" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Traffic Police/</text>
+  <text x="400" y="590" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Law Enforcement</text>
+  
+  <!-- Bike/Scooter Services -->
+  <circle cx="550" cy="500" r="15" fill="#0000FF"/>
+  <text x="550" y="525" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Bike/Scooter</text>
+  <text x="550" y="540" font-family="Arial" font-size="12" fill="#0000FF" text-anchor="middle">Rental Services</text>
+</svg>
