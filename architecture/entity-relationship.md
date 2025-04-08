@@ -13,6 +13,6 @@ This diagram represents the **Entity Relationship Diagram (ERD)** for a Universi
   - Course: course_id, title, description
   - Assignment: assignment_id, due_date, course_id
 
-![Entity Relationship Diagram](./entity-relationship.svg)
+![Entity Relationship Diagram](./diagrams/entity-relationship.svg)
 
 > The diagram above is an SVG illustration showing the database structure and relationships of the University Online Learning Platform.

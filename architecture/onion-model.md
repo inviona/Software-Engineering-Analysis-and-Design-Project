@@ -9,6 +9,6 @@ This diagram represents the 'Onion' model of stakeholders in the Tirana Public T
 
 Each circle contains relevant stakeholders based on their involvement and proximity to the core transportation product.
 
-![Onion Model](./onion-model.svg)
+![Onion Model](./diagrams/onion-model.svg)
 
 > The diagram above is an SVG illustration with labeled stakeholder positions around the system.

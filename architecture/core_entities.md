@@ -18,4 +18,4 @@
 | **Real-Time Tracking System** | GPS-enabled tracking for live updates on vehicle locations.                                |
 | **Accessibility Features**    | Support for disabled passengers, including ramps, priority seating, and announcements.     |
 
-![diagram](resourcers/public_transport_erd.png)
+![diagram](./diagrams/public_transport_erd.png)
