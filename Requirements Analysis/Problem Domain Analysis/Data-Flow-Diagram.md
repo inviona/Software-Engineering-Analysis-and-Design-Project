@@ -1,3 +1,5 @@
+```mermaid
+%%{init: {'theme': 'default', 'themeVariables': { 'background': '#ffffff' }}}%%
 flowchart TD
     P1(("Passengers")) -- Journey Requests --- MP["Mobile Platform"]
     TD(("Transit Drivers")) -- Location Updates --- RTT["Real-time Tracking"]
@@ -31,27 +33,25 @@ flowchart TD
     RP -- Performance Metrics --- DB5
     AM --> n1["Untitled Node"]
 
-     P1:::entity
-     MP:::process
-     TD:::entity
-     RTT:::process
-     AD:::entity
-     AM:::process
-     CS:::entity
-     TM:::process
-     DB1:::datastoren
-     RP:::process
-     TS:::process
-     NA:::process
-     DB2:::datastoren
-     DB3:::datastoren
-     PP:::process
-     DB4:::datastoren
-     DB5:::datastoren
-     DB6:::datastoren
-     DB7:::datastoren
+    P1:::entity
+    MP:::process
+    TD:::entity
+    RTT:::process
+    AD:::entity
+    AM:::process
+    CS:::entity
+    TM:::process
+    DB1:::datastoren
+    RP:::process
+    TS:::process
+    NA:::process
+    DB2:::datastoren
+    DB3:::datastoren
+    PP:::process
+    DB4:::datastoren
+    DB5:::datastoren
+    DB6:::datastoren
+    DB7:::datastoren
     classDef process fill:#f9f,stroke:#333,stroke-width:2px
     classDef entity fill:#bbf,stroke:#333,stroke-width:2px
     classDef datastore fill:#dfd,stroke:#333,stroke-width:2px
-
-
