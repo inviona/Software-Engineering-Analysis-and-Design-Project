@@ -4,7 +4,7 @@ flowchart TD
     P1(("Passengers")) -- Journey Requests --- MP["Mobile Platform"]
     TD(("Transit Drivers")) -- Location Updates --- RTT["Real-time Tracking"]
     AD(("Admin Staff")) -- Administration Data --- AM["Admin Module"]
-    CS(("City Services")) -- Road Data Event Info --- TM["Traffic Management"]
+    CS(("Traffic Control Center")) -- Road Data Event Info --- TM["Traffic Management"]
     MP -- Account Data --- DB1[("User Database")]
     MP -- Route Requests --- RP["Reporting"]
     MP -- Ticketing Data --- TS["Ticketing System"]
