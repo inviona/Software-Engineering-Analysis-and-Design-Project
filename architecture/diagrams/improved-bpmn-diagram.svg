@@ -1,0 +1,226 @@
+<svg viewBox="0 0 1400 3200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="700" y="50" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Public Transportation Management System</text>
+  <text x="700" y="85" font-family="Arial" font-size="18" text-anchor="middle">Business Process Model and Notation (BPMN)</text>
+  
+  <!-- Start Event -->
+  <circle cx="700" cy="140" r="20" fill="#e6f7ff" stroke="#1890ff" stroke-width="2" />
+  <circle cx="700" cy="140" r="16" fill="#e6f7ff" stroke="#1890ff" stroke-width="2" />
+  <text x="700" y="180" font-family="Arial" font-size="14" text-anchor="middle">Start</text>
+  
+  <!-- Flow Lines -->
+  <path d="M700,160 L700,200" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Receive Journey Request Activity -->
+  <rect x="630" y="200" width="140" height="60" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="700" y="235" font-family="Arial" font-size="14" text-anchor="middle">Receive Journey Request</text>
+  
+  <!-- Script Task 1 -->
+  <path d="M700,260 L700,300" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <rect x="620" y="300" width="160" height="70" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="2" />
+  <path d="M620,320 L640,320" fill="none" stroke="#000" stroke-width="1" />
+  <path d="M640,320 L650,310" fill="none" stroke="#000" stroke-width="1" />
+  <path d="M650,310 L650,320" fill="none" stroke="#000" stroke-width="1" />
+  <path d="M650,320 L660,310" fill="none" stroke="#000" stroke-width="1" />
+  <path d="M660,310 L660,320" fill="none" stroke="#000" stroke-width="1" />
+  <text x="700" y="325" font-family="Arial" font-size="13" text-anchor="middle" font-style="italic">&lt;&lt;scriptTask&gt;&gt;</text>
+  <text x="700" y="345" font-family="Arial" font-size="13" text-anchor="middle">journey.request = true;</text>
+  
+  <!-- Get Route Options -->
+  <path d="M700,370 L700,410" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <rect x="630" y="410" width="140" height="60" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="700" y="445" font-family="Arial" font-size="14" text-anchor="middle">Get Route Options</text>
+  
+  <!-- Diamond 1 -->
+  <path d="M700,470 L700,520" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <polygon points="700,520 740,560 700,600 660,560" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="700" y="555" font-family="Arial" font-size="10" text-anchor="middle">journey.multimodal</text>
+  <text x="700" y="570" font-family="Arial" font-size="10" text-anchor="middle">== true;</text>
+  
+  <!-- Calculate Routes -->
+  <path d="M660,560 L500,560 L500,640" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="550" y="540" font-family="Arial" font-size="12" text-anchor="middle">false</text>
+  
+  <path d="M740,560 L900,560 L900,640" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="850" y="540" font-family="Arial" font-size="12" text-anchor="middle">true</text>
+  
+  <rect x="420" y="640" width="160" height="60" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="500" y="675" font-family="Arial" font-size="14" text-anchor="middle">Calculate Direct Route</text>
+  
+  <rect x="820" y="640" width="160" height="60" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="900" y="675" font-family="Arial" font-size="14" text-anchor="middle">Calculate Multimodal Route</text>
+  
+  <!-- Route Reply -->
+  <path d="M500,700 L500,770 L630,770" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M900,700 L900,770 L770,770" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <rect x="630" y="740" width="140" height="60" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="700" y="775" font-family="Arial" font-size="14" text-anchor="middle">Route Reply</text>
+  
+  <!-- Script Task 2 -->
+  <path d="M700,800 L700,830" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <rect x="610" y="830" width="180" height="70" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="2" />
+  <path d="M610,850 L630,850" fill="none" stroke="#000" stroke-width="1" />
+  <path d="M630,850 L640,840" fill="none" stroke="#000" stroke-width="1" />
+  <path d="M640,840 L640,850" fill="none" stroke="#000" stroke-width="1" />
+  <path d="M640,850 L650,840" fill="none" stroke="#000" stroke-width="1" />
+  <path d="M650,840 L650,850" fill="none" stroke="#000" stroke-width="1" />
+  <text x="700" y="855" font-family="Arial" font-size="13" text-anchor="middle" font-style="italic">&lt;&lt;scriptTask&gt;&gt;</text>
+  <text x="700" y="875" font-family="Arial" font-size="12" text-anchor="middle">journey.status = undefined;</text>
+  <text x="700" y="890" font-family="Arial" font-size="12" text-anchor="middle">dialog.Payment.Show = true;</text>
+  
+  <!-- Diamond 2 -->
+  <path d="M700,900 L700,940" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <polygon points="700,940 740,980 700,1020 660,980" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="700" y="975" font-family="Arial" font-size="10" text-anchor="middle">journey.status == ?</text>
+  
+  <!-- Message Events Routes -->
+  <path d="M660,980 L500,980 L500,1050" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="550" y="960" font-family="Arial" font-size="12" text-anchor="middle">Cancel</text>
+  
+  <path d="M700,1020 L700,1050" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="700" y="1040" font-family="Arial" font-size="12" text-anchor="middle">Book</text>
+  
+  <path d="M740,980 L1000,980 L1000,1050" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="900" y="960" font-family="Arial" font-size="12" text-anchor="middle">HoldRoute</text>
+  
+  <!-- Message Events Circles -->
+  <circle cx="500" cy="1070" r="20" fill="#fff" stroke="#000" stroke-width="2" />
+  <circle cx="500" cy="1070" r="15" fill="#fff" stroke="#000" stroke-width="1" />
+  <path d="M485,1065 L515,1065 L500,1075 Z" fill="#fff" stroke="#000" stroke-width="1" />
+  <text x="500" y="1105" font-family="Arial" font-size="12" text-anchor="middle">Cancel Request</text>
+  
+  <circle cx="700" cy="1070" r="20" fill="#fff" stroke="#000" stroke-width="2" />
+  <circle cx="700" cy="1070" r="15" fill="#fff" stroke="#000" stroke-width="1" />
+  <path d="M685,1065 L715,1065 L700,1075 Z" fill="#fff" stroke="#000" stroke-width="1" />
+  <text x="700" y="1105" font-family="Arial" font-size="12" text-anchor="middle">Book Ticket</text>
+  
+  <circle cx="1000" cy="1070" r="20" fill="#fff" stroke="#000" stroke-width="2" />
+  <circle cx="1000" cy="1070" r="15" fill="#fff" stroke="#000" stroke-width="1" />
+  <path d="M985,1065 L1015,1065 L1000,1075 Z" fill="#fff" stroke="#000" stroke-width="1" />
+  <text x="1000" y="1105" font-family="Arial" font-size="12" text-anchor="middle">Hold Route</text>
+  
+  <!-- Cancel Request Flow -->
+  <path d="M500,1090 L500,1130" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <rect x="420" y="1130" width="160" height="60" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="500" y="1165" font-family="Arial" font-size="14" text-anchor="middle">Cancel Journey</text>
+  
+  <path d="M500,1190 L500,1230" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <circle cx="500" cy="1250" r="20" fill="#fff" stroke="#ff4d4f" stroke-width="2" />
+  <circle cx="500" cy="1250" r="16" fill="#fff" stroke="#ff4d4f" stroke-width="2" />
+  <text x="500" y="1280" font-family="Arial" font-size="12" text-anchor="middle">End</text>
+  
+  <!-- Hold Route Flow -->
+  <path d="M1000,1090 L1000,1130" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <rect x="920" y="1130" width="160" height="60" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="1000" y="1165" font-family="Arial" font-size="14" text-anchor="middle">Request Hold</text>
+  
+  <path d="M1000,1190 L1000,1230" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <rect x="920" y="1230" width="160" height="60" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="1000" y="1265" font-family="Arial" font-size="14" text-anchor="middle">Hold Reply</text>
+  
+  <path d="M1000,1290 L1000,1330" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <circle cx="1000" cy="1350" r="20" fill="#fff" stroke="#faad14" stroke-width="2" />
+  <path d="M1000,1350 L1000,1330 M1000,1350 L990,1340 M1000,1350 L1010,1340" stroke="#faad14" stroke-width="2" />
+  <text x="1000" y="1380" font-family="Arial" font-size="12" text-anchor="middle">One Hour</text>
+  
+  <path d="M1000,1370 L1000,1410" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <rect x="920" y="1410" width="160" height="60" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="1000" y="1445" font-family="Arial" font-size="14" text-anchor="middle">Check Hold Status</text>
+  
+  <!-- Diamond 4 -->
+  <path d="M1000,1470 L1000,1510" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <polygon points="1000,1510 1040,1550 1000,1590 960,1550" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="1000" y="1545" font-family="Arial" font-size="9" text-anchor="middle">journey.holdExpired</text>
+  <text x="1000" y="1560" font-family="Arial" font-size="9" text-anchor="middle">== true;</text>
+  
+  <!-- Modified to avoid overlapping Calculate Multimodal Route -->
+  <path d="M960,1550 L800,1550 L800,430 L770,430" fill="none" stroke="#000" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+  <text x="900" y="1530" font-family="Arial" font-size="12" text-anchor="middle">false</text>
+  
+  <path d="M1040,1550 L1120,1550 L1120,1590" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="1080" y="1530" font-family="Arial" font-size="12" text-anchor="middle">true</text>
+  
+  <rect x="1040" y="1590" width="160" height="60" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="1120" y="1625" font-family="Arial" font-size="14" text-anchor="middle">Cancel Hold</text>
+  
+  <path d="M1120,1650 L1120,1690" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <circle cx="1120" cy="1710" r="20" fill="#fff" stroke="#ff4d4f" stroke-width="2" />
+  <circle cx="1120" cy="1710" r="16" fill="#fff" stroke="#ff4d4f" stroke-width="2" />
+  <text x="1120" y="1740" font-family="Arial" font-size="12" text-anchor="middle">End</text>
+  
+  <!-- Booking Flow -->
+  <path d="M700,1090 L700,1130" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <rect x="630" y="1130" width="140" height="60" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="700" y="1165" font-family="Arial" font-size="14" text-anchor="middle">Process Ticket Request</text>
+  
+  <path d="M700,1190 L700,1230" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <rect x="630" y="1230" width="140" height="60" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="700" y="1265" font-family="Arial" font-size="14" text-anchor="middle">Ticket Reply</text>
+  
+  <!-- Diamond 3 -->
+  <path d="M700,1290 L700,1330" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <polygon points="700,1330 740,1370 700,1410 660,1370" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="700" y="1355" font-family="Arial" font-size="9" text-anchor="middle">journey.status ==</text>
+  <text x="700" y="1370" font-family="Arial" font-size="9" text-anchor="middle">'Success' or 'Failure'</text>
+  
+  <path d="M660,1370 L550,1370 L550,1430" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="590" y="1350" font-family="Arial" font-size="12" text-anchor="middle">Failure</text>
+  
+  <path d="M740,1370 L850,1370 L850,1430" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="810" y="1350" font-family="Arial" font-size="12" text-anchor="middle">Success</text>
+  
+  <!-- Failure Flow -->
+  <circle cx="550" cy="1450" r="20" fill="#fff" stroke="#000" stroke-width="2" />
+  <circle cx="550" cy="1450" r="15" fill="#fff" stroke="#000" stroke-width="1" />
+  <path d="M535,1445 L565,1445 L550,1455 Z" fill="#fff" stroke="#000" stroke-width="1" />
+  <text x="550" y="1480" font-family="Arial" font-size="12" text-anchor="middle">Failure Notice</text>
+  
+  <path d="M550,1470 L550,1510" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <rect x="480" y="1510" width="140" height="60" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="550" y="1545" font-family="Arial" font-size="14" text-anchor="middle">Handle Payment Failure</text>
+  
+  <path d="M550,1570 L550,1610" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <rect x="480" y="1610" width="140" height="60" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="550" y="1645" font-family="Arial" font-size="14" text-anchor="middle">Retry Payment</text>
+  
+  <!-- Modified to avoid overlapping -->
+  <path d="M550,1670 L550,1850 L350,1850 L350,950 L660,980" fill="none" stroke="#000" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+  
+  <!-- Success Flow -->
+  <rect x="780" y="1430" width="140" height="60" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="850" y="1465" font-family="Arial" font-size="14" text-anchor="middle">Send Confirmation</text>
+  
+  <path d="M850,1490 L850,1530" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <rect x="780" y="1530" width="140" height="60" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="850" y="1565" font-family="Arial" font-size="14" text-anchor="middle">Schedule Reminders</text>
+  
+  <!-- Added better clock connection -->
+  <path d="M850,1590 L850,1650" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M850,1650 L1050,1650" fill="none" stroke="#000" stroke-width="2" stroke-dasharray="5,5" />
+  <path d="M1050,1650 L1140,1650" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Timer with better positioning -->
+  <circle cx="1160" cy="1650" r="20" fill="#fff" stroke="#faad14" stroke-width="2" />
+  <path d="M1160,1650 L1160,1630 M1160,1650 L1150,1640 M1160,1650 L1170,1640" stroke="#faad14" stroke-width="2" />
+  <text x="1160" y="1680" font-family="Arial" font-size="12" text-anchor="middle">Twelve Hours</text>
+  
+  <path d="M1180,1650 L1220,1650" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <rect x="1220" y="1620" width="140" height="60" rx="10" ry="10" fill="#fff" stroke="#000" stroke-width="2" />
+  <text x="1290" y="1655" font-family="Arial" font-size="14" text-anchor="middle">Trip Reminder</text>
+  
+  <path d="M1290,1620 L1290,1580" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  <circle cx="1290" cy="1560" r="20" fill="#fff" stroke="#ff4d4f" stroke-width="2" />
+  <circle cx="1290" cy="1560" r="16" fill="#fff" stroke="#ff4d4f" stroke-width="2" />
+  <text x="1290" y="1530" font-family="Arial" font-size="12" text-anchor="middle">End</text>
+  
+  <!-- Arrow definitions -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#000" />
+    </marker>
+  </defs>
+</svg>
