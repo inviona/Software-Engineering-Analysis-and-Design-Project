@@ -1,57 +1,216 @@
-**User Story: Tirana Public Transportation Management System**
+# Tirana Public Transportation System
 
-**Title:** Seamless Public Transportation Experience for Daily Commuters
-
-**As a** daily commuter in Tirana,  
-**I want** to plan my trips efficiently using a mobile app, track public transport in real time, and purchase digital tickets easily,  
-**So that** I can have a hassle-free, time-efficient, and cost-effective travel experience.
+## User Story Collection
 
 ---
 
-### **Acceptance Criteria**
-1. **Route Planning & Navigation**
-   - The system provides multiple route options based on time, cost, and number of transfers.
-   - Users receive real-time updates on alternative routes in case of delays.
-   - Walking segments are included in the journey plan.
+## 🚌 Core User Profiles & Needs
 
-2. **Real-Time Tracking**
-   - Live GPS tracking of buses, trams, and other transport modes is available.
-   - Users can view estimated arrival times at stops.
-   - Crowd level indicators help users choose less crowded vehicles.
-
-3. **Digital Ticketing & Payments**
-   - Users can purchase tickets via the app using various payment methods.
-   - QR code validation is supported for seamless boarding.
-   - Subscription and group ticketing options are available.
-
-4. **User Experience & Accessibility**
-   - Users can save favorite routes and receive personalized alerts.
-   - Multilingual support (Albanian, English, Italian) ensures accessibility for all users.
-   - The system provides accessibility features for people with disabilities.
-
-5. **Traffic & Data Management**
-   - AI-based predictions alert users about potential delays.
-   - Accident and roadwork notifications help users adjust their travel plans.
-   - Offline functionality allows route planning even without an internet connection.
-
-6. **Administrative & Community Features**
-   - Operators can access an analytics dashboard for fleet and service management.
-   - Users can report issues and provide feedback.
-   - Data-driven transit planning helps optimize public transportation routes.
+|    ID     | User Type                 | Primary Need                            | Value Created                   |
+| :-------: | :------------------------ | :-------------------------------------- | :------------------------------ |
+| `TIR-001` | Daily Commuter            | Predictable journey times               | Improved daily planning         |
+| `TIR-002` | Tourist/Visitor           | Easy navigation without local knowledge | Better city experience          |
+| `TIR-003` | Student                   | Affordable transit options              | Financial accessibility         |
+| `TIR-004` | Person with Disability    | Accessible routing and assistance       | Equal access to city services   |
+| `TIR-005` | Senior Citizen            | Comfort and safety features             | Continued independence          |
+| `TIR-006` | Family Group              | Group travel coordination               | Simplified travel with children |
+| `TIR-007` | Limited Connectivity User | Offline functionality                   | Reliability in all conditions   |
+| `TIR-008` | Night Traveler            | Safety information and features         | Confidence in evening journeys  |
 
 ---
 
-### **Additional Considerations**
-- Integration with bike and scooter rentals for first/last-mile connectivity.
-- A carbon footprint calculator encourages eco-friendly travel choices.
-- Weather-adaptive routing suggests alternate plans based on weather conditions.
-- Tourism integration provides guidance for visitors using public transport.
+## 📱 Digital Experience Stories
 
-**Priority:** High  
-**Status:** Draft  
-**Sprint:** MVP Development
+### TIR-DE-101
+
+**WHO:** Young professional living in New Tirana  
+**NEED:** Quick access to arrival predictions for nearby bus stops  
+**CONTEXT:** Running late for work meetings throughout the city  
+**SOLUTION:** Geolocation-based predictions with walking time estimates to stops  
+**OUTCOME:** Reduced wait time and stress during busy workdays
+
+### TIR-DE-102
+
+**WHO:** Student at University of Tirana  
+**NEED:** Budget tracking for transportation expenses  
+**CONTEXT:** Limited monthly allowance with frequent trips  
+**SOLUTION:** Cost prediction and monthly expense visualization  
+**OUTCOME:** Improved financial control and planning
+
+### TIR-DE-103
+
+**WHO:** Tourist from Italy visiting for a weekend  
+**NEED:** Easy identification of routes to major attractions  
+**CONTEXT:** Limited time in city with no Albanian language skills  
+**SOLUTION:** Visual landmark navigation with multilingual support  
+**OUTCOME:** Maximized sightseeing time without confusion
+
+### TIR-DE-104
+
+**WHO:** Tech-savvy commuter from Kombinat to City Center  
+**NEED:** Multi-modal journey planning with cost/time comparisons  
+**CONTEXT:** Variable work schedule with flexible arrival times  
+**SOLUTION:** Side-by-side comparison of route options with trade-offs highlighted  
+**OUTCOME:** Optimized daily travel decisions based on daily priorities
 
 ---
 
-This user story ensures that commuters in Tirana benefit from an efficient, user-friendly, and technologically advanced public transportation system.
+## 🔍 Specific Functionality Stories
 
+### Real-Time Information
+
+```
+AS A resident of Tirana's eastern suburbs
+I NEED to know if my bus is significantly delayed
+WHEN I am planning to leave home
+SO THAT I don't wait unnecessarily at exposed bus stops during winter
+MEASURE: Notification accuracy within 5 minutes of actual delays
+```
+
+### Crowding Management
+
+```
+AS A commuter during peak hours
+I NEED to know how crowded the approaching bus is
+WHEN deciding whether to board or wait
+SO THAT I can maintain personal comfort and health
+MEASURE: User-reported satisfaction with crowding predictions
+```
+
+### Digital Ticketing
+
+```
+AS A family of five visiting Dajti Mountain
+I NEED to purchase and store group tickets on a single device
+WHEN planning our weekend excursion
+SO THAT we can board together without complications
+MEASURE: Time to complete group ticket purchase under 60 seconds
+```
+
+### Accessibility Navigation
+
+```
+AS A wheelchair user
+I NEED to identify routes with working elevators and ramp access
+WHEN traveling to medical appointments
+SO THAT I don't encounter impassable obstacles
+MEASURE: 100% accuracy in accessibility feature reporting
+```
+
+---
+
+## 🏆 Value-Driven Epics
+
+### Epic 1: "Morning Rush Mastery"
+
+**GOAL:** Reduce average morning commute stress and unpredictability  
+**TARGET USERS:** Working professionals, students, and daily commuters  
+**KEY STORIES:** TIR-DE-101, TIR-DE-104, Crowding Management  
+**SUCCESS METRICS:**
+
+- 20% reduction in reported morning stress levels
+- 15% increase in on-time arrivals at work/school
+- 30% reduction in wait times during peak hours
+
+### Epic 2: "Tirana for All"
+
+**GOAL:** Make public transportation fully accessible to users with disabilities  
+**TARGET USERS:** People with mobility, visual, hearing, or cognitive impairments  
+**KEY STORIES:** Accessibility Navigation, TIR-004  
+**SUCCESS METRICS:**
+
+- 100% of routes with at least one fully accessible option
+- 40% increase in public transportation usage by people with disabilities
+- 90% satisfaction rating from accessibility advocacy groups
+
+### Epic 3: "Tourist-Friendly Transit"
+
+**GOAL:** Position public transport as the preferred option for tourists  
+**TARGET USERS:** International and domestic visitors  
+**KEY STORIES:** TIR-DE-103, TIR-002, Digital Ticketing  
+**SUCCESS METRICS:**
+
+- 35% increase in tourist usage of public transportation
+- 25% reduction in reported navigation difficulties
+- 50% increase in multi-day tourist transit passes
+
+### Epic 4: "Night Move Initiative"
+
+**GOAL:** Extend reliable service usage into evening hours  
+**TARGET USERS:** Night shift workers, evening entertainment seekers  
+**KEY STORIES:** TIR-008, Real-Time Information  
+**SUCCESS METRICS:**
+
+- 45% increase in evening ridership (7PM-12AM)
+- 60% reduction in safety-related complaints
+- 30% reduction in evening private transportation usage
+
+---
+
+## 📊 User Research Insights
+
+| User Need                       | Importance (1-5) | Current Satisfaction (1-5) | Opportunity Score |
+| :------------------------------ | :--------------: | :------------------------: | :---------------: |
+| Reliable arrival predictions    |        5         |             1              |         5         |
+| Affordable payment options      |        4         |             2              |         4         |
+| Route information accessibility |        5         |             2              |         5         |
+| Comfortable vehicles            |        3         |             2              |         3         |
+| Safety features                 |        5         |             2              |         5         |
+| Digital ticket purchase         |        4         |             1              |         4         |
+| Multi-modal planning            |        3         |             1              |         3         |
+
+---
+
+## 🛣️ Implementation Roadmap
+
+### Phase 1: Core Experience (Q2-Q3 2025)
+
+- Real-time tracking implementation
+- Basic route planning
+- Digital ticketing foundation
+
+### Phase 2: Accessibility Focus (Q3-Q4 2025)
+
+- Comprehensive accessibility features
+- Multi-language support
+- Voice guidance systems
+
+### Phase 3: Advanced Features (Q1-Q2 2026)
+
+- Crowding prediction AI
+- Multi-modal journey optimization
+- Environmental impact tracking
+
+### Phase 4: System Integration (Q3-Q4 2026)
+
+- Regional transportation network integration
+- Tourism service partnerships
+- Advanced data analytics for city planning
+
+---
+
+## 👤 Personas Behind the Stories
+
+### Mira, 32
+
+**Occupation:** Marketing professional  
+**Location:** Komuna e Parisit neighborhood  
+**Goals:** Efficient commuting, reliable predictions, comfortable journey  
+**Frustrations:** Unpredictable delays, overcrowded buses, complex ticket purchase  
+**Quote:** "I just need to know exactly when my bus will arrive so I can finish my coffee in peace."
+
+### Besnik, 67
+
+**Occupation:** Retired teacher  
+**Location:** Ali Demi neighborhood  
+**Goals:** Safe travel, accessibility features, simplified information  
+**Frustrations:** Hard-to-read schedules, uncomfortable waiting areas, difficult boarding  
+**Quote:** "I still want to visit my grandchildren across town independently, but it's getting harder."
+
+### Elena, 19
+
+**Occupation:** University student  
+**Location:** Student dormitories near University of Tirana  
+**Goals:** Affordable travel, late-night options, integration with student life  
+**Frustrations:** Expensive fares, limited night service, disconnected from youth venues  
+**Quote:** "I'm always calculating if I can afford to take the bus or if I should just walk."
