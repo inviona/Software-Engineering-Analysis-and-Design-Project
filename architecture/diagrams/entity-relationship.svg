@@ -1,0 +1,293 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="600" y="30" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">Tirana Public Transportation Management System - Entity Relationship Diagram</text>
+  
+  <!-- TRANSPORT_MODE -->
+  <rect x="100" y="80" width="200" height="100" fill="#d1e7dd" stroke="#198754" stroke-width="2" rx="5"/>
+  <text x="200" y="105" font-size="16" font-weight="bold" text-anchor="middle">TRANSPORT_MODE</text>
+  <line x1="120" y1="115" x2="280" y2="115" stroke="#198754" stroke-width="1"/>
+  <text x="130" y="135" font-size="14">int mode_id PK</text>
+  <text x="130" y="155" font-size="14">string mode_name</text>
+  <text x="130" y="175" font-size="14">string description</text>
+  
+  <!-- VEHICLE -->
+  <rect x="100" y="260" width="200" height="130" fill="#d1e7dd" stroke="#198754" stroke-width="2" rx="5"/>
+  <text x="200" y="285" font-size="16" font-weight="bold" text-anchor="middle">VEHICLE</text>
+  <line x1="120" y1="295" x2="280" y2="295" stroke="#198754" stroke-width="1"/>
+  <text x="130" y="315" font-size="14">int vehicle_id PK</text>
+  <text x="130" y="335" font-size="14">int mode_id FK</text>
+  <text x="130" y="355" font-size="14">string vehicle_number</text>
+  <text x="130" y="375" font-size="14">int capacity</text>
+  <text x="130" y="395" font-size="14">string status</text>
+  
+  <!-- ROUTE -->
+  <rect x="400" y="80" width="200" height="120" fill="#cfe2ff" stroke="#0d6efd" stroke-width="2" rx="5"/>
+  <text x="500" y="105" font-size="16" font-weight="bold" text-anchor="middle">ROUTE</text>
+  <line x1="420" y1="115" x2="580" y2="115" stroke="#0d6efd" stroke-width="1"/>
+  <text x="430" y="135" font-size="14">int route_id PK</text>
+  <text x="430" y="155" font-size="14">string route_name</text>
+  <text x="430" y="175" font-size="14">string description</text>
+  <text x="430" y="195" font-size="14">time estimated_duration</text>
+  
+  <!-- ROUTE_STATION -->
+  <rect x="400" y="260" width="200" height="120" fill="#cfe2ff" stroke="#0d6efd" stroke-width="2" rx="5"/>
+  <text x="500" y="285" font-size="16" font-weight="bold" text-anchor="middle">ROUTE_STATION</text>
+  <line x1="420" y1="295" x2="580" y2="295" stroke="#0d6efd" stroke-width="1"/>
+  <text x="430" y="315" font-size="14">int route_id PK,FK</text>
+  <text x="430" y="335" font-size="14">int station_id PK,FK</text>
+  <text x="430" y="355" font-size="14">int sequence_number</text>
+  <text x="430" y="375" font-size="14">time estimated_arrival</text>
+  
+  <!-- STATION -->
+  <rect x="700" y="260" width="200" height="120" fill="#cfe2ff" stroke="#0d6efd" stroke-width="2" rx="5"/>
+  <text x="800" y="285" font-size="16" font-weight="bold" text-anchor="middle">STATION</text>
+  <line x1="720" y1="295" x2="880" y2="295" stroke="#0d6efd" stroke-width="1"/>
+  <text x="730" y="315" font-size="14">int station_id PK</text>
+  <text x="730" y="335" font-size="14">string station_name</text>
+  <text x="730" y="355" font-size="14">string location</text>
+  <text x="730" y="375" font-size="14">boolean accessibility</text>
+  
+  <!-- SCHEDULE -->
+  <rect x="400" y="440" width="200" height="140" fill="#cfe2ff" stroke="#0d6efd" stroke-width="2" rx="5"/>
+  <text x="500" y="465" font-size="16" font-weight="bold" text-anchor="middle">SCHEDULE</text>
+  <line x1="420" y1="475" x2="580" y2="475" stroke="#0d6efd" stroke-width="1"/>
+  <text x="430" y="495" font-size="14">int schedule_id PK</text>
+  <text x="430" y="515" font-size="14">int route_id FK</text>
+  <text x="430" y="535" font-size="14">int vehicle_id FK</text>
+  <text x="430" y="555" font-size="14">datetime departure_time</text>
+  <text x="430" y="575" font-size="14">datetime arrival_time</text>
+  <text x="430" y="595" font-size="14">string status</text>
+  
+  <!-- USER -->
+  <rect x="700" y="80" width="200" height="140" fill="#f8d7da" stroke="#dc3545" stroke-width="2" rx="5"/>
+  <text x="800" y="105" font-size="16" font-weight="bold" text-anchor="middle">USER</text>
+  <line x1="720" y1="115" x2="880" y2="115" stroke="#dc3545" stroke-width="1"/>
+  <text x="730" y="135" font-size="14">int user_id PK</text>
+  <text x="730" y="155" font-size="14">string username</text>
+  <text x="730" y="175" font-size="14">string email</text>
+  <text x="730" y="195" font-size="14">string phone_number</text>
+  <text x="730" y="215" font-size="14">date registration_date</text>
+  <text x="730" y="235" font-size="14">boolean needs_accessibility</text>
+  
+  <!-- TICKET -->
+  <rect x="700" y="440" width="200" height="160" fill="#fff3cd" stroke="#ffc107" stroke-width="2" rx="5"/>
+  <text x="800" y="465" font-size="16" font-weight="bold" text-anchor="middle">TICKET</text>
+  <line x1="720" y1="475" x2="880" y2="475" stroke="#ffc107" stroke-width="1"/>
+  <text x="730" y="495" font-size="14">int ticket_id PK</text>
+  <text x="730" y="515" font-size="14">int user_id FK</text>
+  <text x="730" y="535" font-size="14">int ticket_type_id FK</text>
+  <text x="730" y="555" font-size="14">datetime purchase_date</text>
+  <text x="730" y="575" font-size="14">datetime valid_from</text>
+  <text x="730" y="595" font-size="14">datetime valid_until</text>
+  <text x="730" y="615" font-size="14">boolean is_validated</text>
+  
+  <!-- TICKET_TYPE -->
+  <rect x="1000" y="440" width="200" height="140" fill="#fff3cd" stroke="#ffc107" stroke-width="2" rx="5"/>
+  <text x="1100" y="465" font-size="16" font-weight="bold" text-anchor="middle">TICKET_TYPE</text>
+  <line x1="1020" y1="475" x2="1180" y2="475" stroke="#ffc107" stroke-width="1"/>
+  <text x="1030" y="495" font-size="14">int ticket_type_id PK</text>
+  <text x="1030" y="515" font-size="14">string type_name</text>
+  <text x="1030" y="535" font-size="14">decimal base_price</text>
+  <text x="1030" y="555" font-size="14">string validity_period</text>
+  <text x="1030" y="575" font-size="14">decimal discount</text>
+  
+  <!-- PAYMENT -->
+  <rect x="700" y="640" width="200" height="140" fill="#fff3cd" stroke="#ffc107" stroke-width="2" rx="5"/>
+  <text x="800" y="665" font-size="16" font-weight="bold" text-anchor="middle">PAYMENT</text>
+  <line x1="720" y1="675" x2="880" y2="675" stroke="#ffc107" stroke-width="1"/>
+  <text x="730" y="695" font-size="14">int payment_id PK</text>
+  <text x="730" y="715" font-size="14">int ticket_id FK</text>
+  <text x="730" y="735" font-size="14">decimal amount</text>
+  <text x="730" y="755" font-size="14">string payment_method</text>
+  <text x="730" y="775" font-size="14">datetime payment_date</text>
+  <text x="730" y="795" font-size="14">string status</text>
+  
+  <!-- JOURNEY_PLAN -->
+  <rect x="100" y="440" width="200" height="140" fill="#e2e3e5" stroke="#6c757d" stroke-width="2" rx="5"/>
+  <text x="200" y="465" font-size="16" font-weight="bold" text-anchor="middle">JOURNEY_PLAN</text>
+  <line x1="120" y1="475" x2="280" y2="475" stroke="#6c757d" stroke-width="1"/>
+  <text x="130" y="495" font-size="14">int plan_id PK</text>
+  <text x="130" y="515" font-size="14">int user_id FK</text>
+  <text x="130" y="535" font-size="14">datetime creation_time</text>
+  <text x="130" y="555" font-size="14">string start_location</text>
+  <text x="130" y="575" font-size="14">string end_location</text>
+  <text x="130" y="595" font-size="14">datetime desired_arrival</text>
+  <text x="130" y="615" font-size="14">boolean is_favorite</text>
+  
+  <!-- JOURNEY_ROUTE -->
+  <rect x="100" y="640" width="200" height="140" fill="#e2e3e5" stroke="#6c757d" stroke-width="2" rx="5"/>
+  <text x="200" y="665" font-size="16" font-weight="bold" text-anchor="middle">JOURNEY_ROUTE</text>
+  <line x1="120" y1="675" x2="280" y2="675" stroke="#6c757d" stroke-width="1"/>
+  <text x="130" y="695" font-size="14">int journey_route_id PK</text>
+  <text x="130" y="715" font-size="14">int plan_id FK</text>
+  <text x="130" y="735" font-size="14">int route_option</text>
+  <text x="130" y="755" font-size="14">time estimated_duration</text>
+  <text x="130" y="775" font-size="14">int transfers_count</text>
+  <text x="130" y="795" font-size="14">decimal fare_estimate</text>
+  
+  <!-- JOURNEY_LEG -->
+  <rect x="100" y="820" width="200" height="160" fill="#e2e3e5" stroke="#6c757d" stroke-width="2" rx="5"/>
+  <text x="200" y="845" font-size="16" font-weight="bold" text-anchor="middle">JOURNEY_LEG</text>
+  <line x1="120" y1="855" x2="280" y2="855" stroke="#6c757d" stroke-width="1"/>
+  <text x="130" y="875" font-size="14">int leg_id PK</text>
+  <text x="130" y="895" font-size="14">int journey_route_id FK</text>
+  <text x="130" y="915" font-size="14">int route_id FK</text>
+  <text x="130" y="935" font-size="14">int from_station_id FK</text>
+  <text x="130" y="955" font-size="14">int to_station_id FK</text>
+  <text x="130" y="975" font-size="14">datetime departure_time</text>
+  <text x="130" y="995" font-size="14">string transport_mode</text>
+  
+  <!-- USER_PREFERENCE -->
+  <rect x="400" y="640" width="200" height="160" fill="#f8d7da" stroke="#dc3545" stroke-width="2" rx="5"/>
+  <text x="500" y="665" font-size="16" font-weight="bold" text-anchor="middle">USER_PREFERENCE</text>
+  <line x1="420" y1="675" x2="580" y2="675" stroke="#dc3545" stroke-width="1"/>
+  <text x="430" y="695" font-size="14">int preference_id PK</text>
+  <text x="430" y="715" font-size="14">int user_id FK</text>
+  <text x="430" y="735" font-size="14">boolean push_notifications</text>
+  <text x="430" y="755" font-size="14">boolean email_notifications</text>
+  <text x="430" y="775" font-size="14">boolean sms_notifications</text>
+  <text x="430" y="795" font-size="14">string preferred_routes</text>
+  <text x="430" y="815" font-size="14">string accessibility_needs</text>
+  <text x="430" y="835" font-size="14">string preferred_payment</text>
+  
+  <!-- NOTIFICATION -->
+  <rect x="1000" y="260" width="200" height="160" fill="#f8d7da" stroke="#dc3545" stroke-width="2" rx="5"/>
+  <text x="1100" y="285" font-size="16" font-weight="bold" text-anchor="middle">NOTIFICATION</text>
+  <line x1="1020" y1="295" x2="1180" y2="295" stroke="#dc3545" stroke-width="1"/>
+  <text x="1030" y="315" font-size="14">int notification_id PK</text>
+  <text x="1030" y="335" font-size="14">int user_id FK</text>
+  <text x="1030" y="355" font-size="14">string notification_type</text>
+  <text x="1030" y="375" font-size="14">string content</text>
+  <text x="1030" y="395" font-size="14">datetime timestamp</text>
+  <text x="1030" y="415" font-size="14">boolean is_read</text>
+  <text x="1030" y="435" font-size="14">string related_entity</text>
+  <text x="1030" y="455" font-size="14">int related_entity_id</text>
+  
+  <!-- REAL_TIME_TRACKING -->
+  <rect x="400" y="820" width="200" height="160" fill="#d1e7dd" stroke="#198754" stroke-width="2" rx="5"/>
+  <text x="500" y="845" font-size="16" font-weight="bold" text-anchor="middle">REAL_TIME_TRACKING</text>
+  <line x1="420" y1="855" x2="580" y2="855" stroke="#198754" stroke-width="1"/>
+  <text x="430" y="875" font-size="14">int tracking_id PK</text>
+  <text x="430" y="895" font-size="14">int vehicle_id FK</text>
+  <text x="430" y="915" font-size="14">datetime timestamp</text>
+  <text x="430" y="935" font-size="14">float latitude</text>
+  <text x="430" y="955" font-size="14">float longitude</text>
+  <text x="430" y="975" font-size="14">string status</text>
+  <text x="430" y="995" font-size="14">int delay_minutes</text>
+  
+  <!-- DISRUPTION_INFO -->
+  <rect x="700" y="820" width="200" height="160" fill="#cfe2ff" stroke="#0d6efd" stroke-width="2" rx="5"/>
+  <text x="800" y="845" font-size="16" font-weight="bold" text-anchor="middle">DISRUPTION_INFO</text>
+  <line x1="720" y1="855" x2="880" y2="855" stroke="#0d6efd" stroke-width="1"/>
+  <text x="730" y="875" font-size="14">int disruption_id PK</text>
+  <text x="730" y="895" font-size="14">datetime start_time</text>
+  <text x="730" y="915" font-size="14">datetime estimated_end</text>
+  <text x="730" y="935" font-size="14">string description</text>
+  <text x="730" y="955" font-size="14">string impact_level</text>
+  <text x="730" y="975" font-size="14">int affected_route_id FK</text>
+  <text x="730" y="995" font-size="14">int affected_station_id FK</text>
+  
+  <!-- SERVICE_UPDATE -->
+  <rect x="1000" y="640" width="200" height="120" fill="#cfe2ff" stroke="#0d6efd" stroke-width="2" rx="5"/>
+  <text x="1100" y="665" font-size="16" font-weight="bold" text-anchor="middle">SERVICE_UPDATE</text>
+  <line x1="1020" y1="675" x2="1180" y2="675" stroke="#0d6efd" stroke-width="1"/>
+  <text x="1030" y="695" font-size="14">int update_id PK</text>
+  <text x="1030" y="715" font-size="14">datetime timestamp</text>
+  <text x="1030" y="735" font-size="14">string update_type</text>
+  <text x="1030" y="755" font-size="14">string description</text>
+  <text x="1030" y="775" font-size="14">string impact_level</text>
+  
+  <!-- Relationships -->
+  <!-- TRANSPORT_MODE to VEHICLE -->
+  <path d="M200 180 L200 260" fill="none" stroke="#000" stroke-width="1.5"/>
+  <circle cx="200" cy="180" r="5" fill="white" stroke="#000" stroke-width="1.5"/>
+  <path d="M195 260 L205 260 L200 250 Z" fill="#000"/>
+  <text x="210" y="220" font-size="12" text-anchor="start">consists of</text>
+  
+  <!-- VEHICLE to REAL_TIME_TRACKING -->
+  <path d="M200 390 L200 620 L400 620 L400 820" fill="none" stroke="#000" stroke-width="1.5"/>
+  <circle cx="200" cy="390" r="5" fill="white" stroke="#000" stroke-width="1.5"/>
+  <path d="M395 820 L405 820 L400 810 Z" fill="#000"/>
+  <text x="250" y="610" font-size="12" text-anchor="start">tracked by</text>
+  
+  <!-- ROUTE to SCHEDULE -->
+  <path d="M500 200 L500 440" fill="none" stroke="#000" stroke-width="1.5"/>
+  <circle cx="500" cy="200" r="5" fill="white" stroke="#000" stroke-width="1.5"/>
+  <path d="M495 440 L505 440 L500 430 Z" fill="#000"/>
+  <text x="510" y="320" font-size="12" text-anchor="start">has</text>
+  
+  <!-- ROUTE to ROUTE_STATION -->
+  <path d="M500 200 L500 260" fill="none" stroke="#000" stroke-width="1.5"/>
+  <path d="M490 235 L510 235 M490 245 L510 245" fill="none" stroke="#000" stroke-width="1.5"/>
+  <path d="M495 260 L505 260 L500 250 Z" fill="#000"/>
+  <text x="510" y="240" font-size="12" text-anchor="start">contains</text>
+  
+  <!-- STATION to ROUTE_STATION -->
+  <path d="M700 320 L600 320" fill="none" stroke="#000" stroke-width="1.5"/>
+  <path d="M625 310 L625 330 M635 310 L635 330" fill="none" stroke="#000" stroke-width="1.5"/>
+  <circle cx="700" cy="320" r="5" fill="white" stroke="#000" stroke-width="1.5"/>
+  <text x="630" y="310" font-size="12" text-anchor="middle">included in</text>
+  
+  <!-- USER to TICKET -->
+  <path d="M800 220 L800 440" fill="none" stroke="#000" stroke-width="1.5"/>
+  <circle cx="800" cy="220" r="5" fill="white" stroke="#000" stroke-width="1.5"/>
+  <path d="M795 440 L805 440 L800 430 Z" fill="#000"/>
+  <text x="815" y="330" font-size="12" text-anchor="start">purchases</text>
+  
+  <!-- TICKET to PAYMENT -->
+  <path d="M800 600 L800 640" fill="none" stroke="#000" stroke-width="1.5"/>
+  <circle cx="800" cy="600" r="5" fill="white" stroke="#000" stroke-width="1.5"/>
+  <path d="M795 640 L805 640 L800 630 Z" fill="#000"/>
+  <text x="815" y="620" font-size="12" text-anchor="start">paid via</text>
+  
+  <!-- TICKET_TYPE to TICKET -->
+  <path d="M1000 520 L900 520" fill="none" stroke="#000" stroke-width="1.5"/>
+  <circle cx="1000" cy="520" r="5" fill="white" stroke="#000" stroke-width="1.5"/>
+  <path d="M905 515 L905 525 L895 520 Z" fill="#000"/>
+  <text x="950" y="510" font-size="12" text-anchor="middle">categorized as</text>
+  
+  <!-- USER to JOURNEY_PLAN -->
+  <path d="M700 150 L450 150 L450 380 L200 380 L200 440" fill="none" stroke="#000" stroke-width="1.5"/>
+  <circle cx="700" cy="150" r="5" fill="white" stroke="#000" stroke-width="1.5"/>
+  <path d="M195 440 L205 440 L200 430 Z" fill="#000"/>
+  <text x="450" y="370" font-size="12" text-anchor="middle">creates</text>
+  
+  <!-- JOURNEY_PLAN to JOURNEY_ROUTE -->
+  <path d="M200 580 L200 640" fill="none" stroke="#000" stroke-width="1.5"/>
+  <circle cx="200" cy="580" r="5" fill="white" stroke="#000" stroke-width="1.5"/>
+  <path d="M195 640 L205 640 L200 630 Z" fill="#000"/>
+  <text x="220" y="610" font-size="12" text-anchor="start">consists of</text>
+  
+  <!-- JOURNEY_ROUTE to JOURNEY_LEG -->
+  <path d="M200 780 L200 820" fill="none" stroke="#000" stroke-width="1.5"/>
+  <circle cx="200" cy="780" r="5" fill="white" stroke="#000" stroke-width="1.5"/>
+  <path d="M195 820 L205 820 L200 810 Z" fill="#000"/>
+  <text x="220" y="800" font-size="12" text-anchor="start">has</text>
+  
+  <!-- USER to NOTIFICATION -->
+  <path d="M900 150 L1080 150 L1080 260" fill="none" stroke="#000" stroke-width="1.5"/>
+  <circle cx="900" cy="150" r="5" fill="white" stroke="#000" stroke-width="1.5"/>
+  <path d="M1075 260 L1085 260 L1080 250 Z" fill="#000"/>
+  <text x="1000" y="140" font-size="12" text-anchor="middle">receives</text>
+  
+  <!-- DISRUPTION_INFO to NOTIFICATION -->
+  <path d="M800 820 L970 820 L970 420 L1000 420" fill="none" stroke="#000" stroke-width="1.5"/>
+  <circle cx="800" cy="820" r="5" fill="white" stroke="#000" stroke-width="1.5"/>
+  <path d="M995 415 L995 425 L1005 420 Z" fill="#000"/>
+  <text x="900" y="810" font-size="12" text-anchor="middle">generates</text>
+  
+  <!-- SERVICE_UPDATE to NOTIFICATION -->
+  <path d="M1100 640 L1100 420" fill="none" stroke="#000" stroke-width="1.5"/>
+  <circle cx="1100" cy="640" r="5" fill="white" stroke="#000" stroke-width="1.5"/>
+  <path d="M1095 425 L1105 425 L1100 415 Z" fill="#000"/>
+  <text x="1120" y="520" font-size="12" text-anchor="start">generates</text>
+  
+  <!-- USER to USER_PREFERENCE -->
+  <path d="M700 180 L370 180 L370 720 L400 720" fill="none" stroke="#000" stroke-width="1.5"/>
+  <circle cx="700" cy="180" r="5" fill="white" stroke="#000" stroke-width="1.5"/>
+  <path d="M395 715 L395 725 L405 720 Z" fill="#000"/>
+  <text x="350" y="700" font-size="12" text-anchor="end">has</text>
+</svg>

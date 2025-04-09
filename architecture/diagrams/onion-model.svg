@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#f9f9f9"/>
+
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#222">
+    'Onion' Model of Transportation System Stakeholders
+  </text>
+
+  <!-- Onion Circles -->
+  <circle cx="400" cy="400" r="100" fill="none" stroke="#4CAF50" stroke-width="2"/>
+  <circle cx="400" cy="400" r="200" fill="none" stroke="#4CAF50" stroke-width="2"/>
+  <circle cx="400" cy="400" r="300" fill="none" stroke="#4CAF50" stroke-width="2"/>
+  <circle cx="400" cy="400" r="375" fill="none" stroke="#4CAF50" stroke-width="1.5" stroke-dasharray="6,4"/>
+
+  <!-- Labels for Layers -->
+  <text x="400" y="380" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">The Product</text>
+  <text x="400" y="265" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">The System</text>
+  <text x="400" y="155" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">The Containing System</text>
+  <text x="400" y="95" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">The Wider Environment</text>
+
+  <!-- Product Labels -->
+  <text x="400" y="400" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">Mobile and Web Apps</text>
+  <text x="400" y="440" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">Admin Dashboard</text>
+
+  <!-- Stakeholders -->
+  <!-- System -->
+  <circle cx="400" cy="300" r="8" fill="#1976D2"/>
+  <text x="400" y="330" font-size="12" fill="#1976D2" text-anchor="middle">Public Transportation</text>
+  <text x="400" y="345" font-size="12" fill="#1976D2" text-anchor="middle">Users</text>
+
+  <circle cx="340" cy="450" r="8" fill="#1976D2"/>
+  <text x="340" y="475" font-size="12" fill="#1976D2" text-anchor="middle">IT Support</text>
+
+  <circle cx="460" cy="450" r="8" fill="#1976D2"/>
+  <text x="460" y="475" font-size="12" fill="#1976D2" text-anchor="middle">Operators/Drivers</text>
+
+  <!-- Containing System -->
+  <circle cx="400" cy="200" r="8" fill="#1976D2"/>
+  <text x="400" y="225" font-size="12" fill="#1976D2" text-anchor="middle">Public Transportation</text>
+  <text x="400" y="240" font-size="12" fill="#1976D2" text-anchor="middle">Administration</text>
+
+  <circle cx="250" cy="300" r="8" fill="#1976D2"/>
+  <text x="250" y="325" font-size="12" fill="#1976D2" text-anchor="middle">City Government</text>
+  <text x="250" y="340" font-size="12" fill="#1976D2" text-anchor="middle">Officials</text>
+
+  <circle cx="550" cy="300" r="8" fill="#1976D2"/>
+  <text x="550" y="325" font-size="12" fill="#1976D2" text-anchor="middle">System Investors</text>
+  <text x="550" y="340" font-size="12" fill="#1976D2" text-anchor="middle">/Funders</text>
+
+  <!-- Wider Environment -->
+  <circle cx="520" cy="150" r="6" fill="#1976D2"/>
+  <text x="520" y="175" font-size="11" fill="#1976D2" text-anchor="middle">National Government</text>
+
+  <circle cx="200" cy="200" r="6" fill="#1976D2"/>
+  <text x="200" y="225" font-size="11" fill="#1976D2" text-anchor="middle">Tourism Industry</text>
+
+  <circle cx="575" cy="400" r="6" fill="#1976D2"/>
+  <text x="575" y="425" font-size="11" fill="#1976D2" text-anchor="middle">Local Businesses</text>
+
+  <circle cx="225" cy="400" r="6" fill="#1976D2"/>
+  <text x="225" y="425" font-size="11" fill="#1976D2" text-anchor="middle">Disabled Citizens</text>
+
+  <circle cx="650" cy="300" r="6" fill="#43A047"/>
+  <text x="650" y="325" font-size="11" fill="#43A047" text-anchor="middle">Environmental Groups</text>
+
+  <circle cx="250" cy="500" r="6" fill="#1976D2"/>
+  <text x="250" y="525" font-size="11" fill="#1976D2" text-anchor="middle">Third-party Developers</text>
+
+  <circle cx="400" cy="550" r="6" fill="#1976D2"/>
+  <text x="400" y="575" font-size="11" fill="#1976D2" text-anchor="middle">Traffic Police</text>
+  <text x="400" y="588" font-size="11" fill="#1976D2" text-anchor="middle">/Law Enforcement</text>
+
+  <circle cx="550" cy="500" r="6" fill="#1976D2"/>
+  <text x="550" y="525" font-size="11" fill="#1976D2" text-anchor="middle">Bike/Scooter Rentals</text>
+
+  <!-- Arrows and Labels -->
+  <line x1="400" y1="285" x2="400" y2="365" stroke="purple" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="355" y="280" font-size="12" fill="purple" font-weight="bold">User Experience</text>
+
+  <line x1="400" y1="490" x2="400" y2="450" stroke="blue" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="340" y="515" font-size="12" fill="blue" font-weight="bold">Operational Efficiency</text>
+
+  <line x1="720" y1="270" x2="470" y2="370" stroke="orange" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="660" y="270" font-size="12" fill="orange" font-weight="bold">Data-Driven Planning</text>
+
+  <line x1="610" y1="160" x2="450" y2="200" stroke="#666" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow)"/>
+  <text x="580" y="160" font-size="11" fill="#666">Infrastructure Standards</text>
+
+  <line x1="235" y1="400" x2="320" y2="400" stroke="#8B008B" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow)"/>
+  <text x="240" y="390" font-size="11" fill="#8B008B">Accessibility</text>
+
+  <line x1="640" y1="310" x2="500" y2="350" stroke="red" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow)"/>
+  <text x="560" y="350" font-size="11" fill="red">Sustainability</text>
+
+  <line x1="260" y1="490" x2="340" y2="440" stroke="#FF6600" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow)"/>
+  <text x="200" y="480" font-size="11" fill="#FF6600">API Integration</text>
+
+  <line x1="400" y1="540" x2="400" y2="450" stroke="#000099" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow)"/>
+  <text x="450" y="550" font-size="11" fill="#000099">Traffic Management</text>
+
+  <line x1="540" y1="490" x2="470" y2="440" stroke="#CC6600" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow)"/>
+  <text x="510" y="470" font-size="11" fill="#CC6600">Multimodal Integration</text>
+
+  <!-- Arrow Definition -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000"/>
+    </marker>
+  </defs>
+</svg>
