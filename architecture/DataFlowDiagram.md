@@ -1,37 +1,29 @@
-# Data Flow Diagrams
+# Tirana Public Transportation System - Data Flow Diagrams
+
+## Overview
+
+This repository contains a set of Data Flow Diagrams (DFDs) for the Tirana Public Transportation System at different levels of abstraction.
+
+## Diagram Hierarchy
 
 ### Level 0 - Context Diagram
 
-The context diagram represents the entire Tirana Public Transportation System as a single process and shows how it interacts with external entities such as passengers, transit drivers, administrative staff, and the traffic control center.
-
-
 ![Level 0 DFD](diagrams/DataFlowDiagramL0.svg)
+
+The context diagram shows the Tirana Public Transportation System as a single process interacting with three external entities: Passengers, Transit Drivers, and Admin Staff.
 
 ### Level 1 - Main Processes
 
-This diagram breaks down the system into its four primary service areas:
-- Passenger Services
-- Vehicle Services
-- Administration Services
-- Traffic Management Services
-
-It shows how these services interact with each other and with the system's primary data stores.
-
 ![Level 1 DFD](diagrams/DataFlowDiagramL1.svg)
+
+This diagram breaks down the system into key processes including Plan Trip, Buy Ticket, Track Vehicle, and Manage Users, along with their interactions with the main databases.
 
 ### Level 2 - Detailed Processes
 
-The Level 2 DFD expands further to show the detailed processes, including:
-- Mobile Platform
-- Real-time Tracking
-- Admin Module
-- Traffic Management
-- Reporting
-- Ticketing System
-- Payment Processor
-- Notification Agent
-
-This level also illustrates the complete set of data stores and the specific data flows between all components.
-
 ![Level 2 DFD](diagrams/DataFlowDiagramL2.svg)
 
+The detailed diagram expands each process into sub-processes showing comprehensive data flows between all components, including process steps like Register Stops, Calculate ETA, Validate Card, and more.
+
+## Purpose
+
+These diagrams serve as documentation for the system architecture and can be used for system development, maintenance, and stakeholder communication.
