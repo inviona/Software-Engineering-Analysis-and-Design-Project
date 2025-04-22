@@ -3,11 +3,10 @@
 ### 1. Route Planning & Navigation
 
 - FR-1.1: The system must calculate routes between any two locations in Tirana and surrounding areas.
-- FR-1.2: The system must include multiple transportation modes (bus, tram, etc.) in route planning.
-- FR-1.3: The system must allow users to set preferences (fastest route, fewer transfers, lowest cost).
-- FR-1.4: The system must provide walking directions for first/last mile segments.
-- FR-1.5: The system must recalculate routes when disruptions occur.
-- FR-1.6: The system must save user's favorite routes and destinations.
+- FR-1.2: The system must allow users to set preferences (fastest route, fewer transfers, lowest cost).
+- FR-1.3: The system must provide walking directions for first/last mile segments.
+- FR-1.4: The system must recalculate routes when disruptions occur.
+- FR-1.5: The system must save user's favorite routes and destinations.
 
 ### 2. Real-Time Tracking
 
@@ -45,9 +44,8 @@
 ### 6. API & Integration
 
 - FR-6.1: The system must provide APIs for third-party integration.
-- FR-6.2: The system must integrate with bike/scooter rental services.
-- FR-6.3: The system must incorporate tourism information.
-- FR-6.4: The system must include special event transportation data.
+- FR-6.2: The system must incorporate tourism information.
+- FR-6.3: The system must include special event transportation data.
 
 # Non-Functional Requirements
 
