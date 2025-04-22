@@ -51,7 +51,7 @@
 
 ### 1. Performance
 
-- NFR-1.1: The system must support at least 100,000 concurrent users.
+- NFR-1.1: The system must support at least 40,000 concurrent users.
 - NFR-1.2: The system must calculate routes in under 3 seconds.
 - NFR-1.3: The system must maintain 99.9% uptime.
 - NFR-1.4: The system must complete payment transactions in under 5 seconds.
