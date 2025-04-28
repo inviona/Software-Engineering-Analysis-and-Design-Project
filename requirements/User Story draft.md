@@ -99,54 +99,6 @@ MEASURE: 100% accuracy in accessibility feature reporting
 
 ---
 
-## 🏆 Value-Driven Epics
-
-### Epic 1: "Morning Rush Mastery"
-
-**GOAL:** Reduce average morning commute stress and unpredictability  
-**TARGET USERS:** Working professionals, students, and daily commuters  
-**KEY STORIES:** TIR-DE-101, TIR-DE-104, Crowding Management  
-**SUCCESS METRICS:**
-
-- 20% reduction in reported morning stress levels
-- 15% increase in on-time arrivals at work/school
-- 30% reduction in wait times during peak hours
-
-### Epic 2: "Tirana for All"
-
-**GOAL:** Make public transportation fully accessible to users with disabilities  
-**TARGET USERS:** People with mobility, visual, hearing, or cognitive impairments  
-**KEY STORIES:** Accessibility Navigation, TIR-004  
-**SUCCESS METRICS:**
-
-- 100% of routes with at least one fully accessible option
-- 40% increase in public transportation usage by people with disabilities
-- 90% satisfaction rating from accessibility advocacy groups
-
-### Epic 3: "Tourist-Friendly Transit"
-
-**GOAL:** Position public transport as the preferred option for tourists  
-**TARGET USERS:** International and domestic visitors  
-**KEY STORIES:** TIR-DE-103, TIR-002, Digital Ticketing  
-**SUCCESS METRICS:**
-
-- 35% increase in tourist usage of public transportation
-- 25% reduction in reported navigation difficulties
-- 50% increase in multi-day tourist transit passes
-
-### Epic 4: "Night Move Initiative"
-
-**GOAL:** Extend reliable service usage into evening hours  
-**TARGET USERS:** Night shift workers, evening entertainment seekers  
-**KEY STORIES:** TIR-008, Real-Time Information  
-**SUCCESS METRICS:**
-
-- 45% increase in evening ridership (7PM-12AM)
-- 60% reduction in safety-related complaints
-- 30% reduction in evening private transportation usage
-
----
-
 ## 📊 User Research Insights
 
 | User Need                       | Importance (1-5) | Current Satisfaction (1-5) | Opportunity Score |
