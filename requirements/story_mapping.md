@@ -7,13 +7,7 @@ flowchart TD
     classDef release4 fill:#e1d5e7,stroke:#9673a6,color:black
     classDef activity fill:#f9f9f9,stroke:#666666,stroke-width:2px,color:black,font-weight:bold
 
-    %% Main Backbone
-    Backbone("USER JOURNEY BACKBONE")
-    Backbone ==> A1("1. DISCOVER & PLAN")
-    Backbone ==> A2("2. PURCHASE & VALIDATE")
-    Backbone ==> A3("3. TRAVEL & NAVIGATE")
-    Backbone ==> A4("4. MANAGE & PERSONALIZE")
-    Backbone ==> A5("5. PROVIDE FEEDBACK")
+
 
     %% Release 1 Features
     R1("RELEASE 1: Core Navigation") ==> R1A1("Basic route search\nStandard timetables")
