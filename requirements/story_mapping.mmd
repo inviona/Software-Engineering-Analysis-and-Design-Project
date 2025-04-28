@@ -1,0 +1,148 @@
+graph TD
+    classDef release1 fill:#d4f1f9,stroke:#0e76a8
+    classDef release2 fill:#d5e8d4,stroke:#82b366
+    classDef release3 fill:#ffe6cc,stroke:#d79b00
+    classDef release4 fill:#e1d5e7,stroke:#9673a6
+    classDef activity fill:#f9f9f9,stroke:#666666,stroke-width:2px
+    classDef backbone fill:#f5f5f5,stroke:#333333,stroke-width:3px,color:#333333,font-weight:bold
+
+    %% Backbone - User Activities
+    Backbone[User Activities] ---|Backbone| Activity1
+    Activity1[1. DISCOVER & PLAN] --- Activity2
+    Activity2[2. PURCHASE & VALIDATE] --- Activity3
+    Activity3[3. TRAVEL & NAVIGATE] --- Activity4
+    Activity4[4. MANAGE & PERSONALIZE] --- Activity5
+    Activity5[5. PROVIDE FEEDBACK]
+    
+    %% Activity 1: DISCOVER & PLAN
+    Activity1 ---|R1| DP1[Basic route search]
+    Activity1 ---|R1| DP2[Standard timetable view]
+    Activity1 ---|R1| DP3[Simple service alerts]
+    Activity1 ---|R1| DP4[Basic journey planner]
+    
+    Activity1 ---|R2| DP5[Advanced search filters]
+    Activity1 ---|R2| DP6[Real-time schedule updates]
+    Activity1 ---|R2| DP7[Detailed disruption info]
+    Activity1 ---|R2| DP8[Multi-modal journey planning]
+    Activity1 ---|R2| DP9[Accessibility route options]
+    
+    Activity1 ---|R3| DP10[AI route recommendations]
+    Activity1 ---|R3| DP11[Predictive schedule info]
+    Activity1 ---|R3| DP12[Personalized alerts]
+    Activity1 ---|R3| DP13[Door-to-door planning]
+    Activity1 ---|R3| DP14[Tourist & event routes]
+    
+    Activity1 ---|R4| DP15[Cross-border planning]
+    Activity1 ---|R4| DP16[Rural connectivity]
+    Activity1 ---|R4| DP17[Tourism integration]
+    Activity1 ---|R4| DP18[Special event planning]
+    
+    %% Activity 2: PURCHASE & VALIDATE
+    Activity2 ---|R1| PV1[Single journey tickets]
+    Activity2 ---|R1| PV2[Basic payment processing]
+    Activity2 ---|R1| PV3[QR code ticket display]
+    Activity2 ---|R1| PV4[Manual validation]
+    
+    Activity2 ---|R2| PV5[Multi-journey passes]
+    Activity2 ---|R2| PV6[Stored payment methods]
+    Activity2 ---|R2| PV7[Automatic validation]
+    Activity2 ---|R2| PV8[Family/group tickets]
+    
+    Activity2 ---|R3| PV9[Subscription management]
+    Activity2 ---|R3| PV10[Contactless payments]
+    Activity2 ---|R3| PV11[Cross-mode validation]
+    Activity2 ---|R3| PV12[Loyalty program]
+    
+    Activity2 ---|R4| PV13[International payments]
+    Activity2 ---|R4| PV14[Cross-border ticketing]
+    Activity2 ---|R4| PV15[Mobility packages]
+    Activity2 ---|R4| PV16[Bike/scooter integration]
+    
+    %% Activity 3: TRAVEL & NAVIGATE
+    Activity3 ---|R1| TN1[Simple vehicle tracking]
+    Activity3 ---|R1| TN2[Basic ETA info]
+    Activity3 ---|R1| TN3[Text directions]
+    Activity3 ---|R1| TN4[Stop information]
+    
+    Activity3 ---|R2| TN5[Live GPS tracking]
+    Activity3 ---|R2| TN6[Dynamic ETA updates]
+    Activity3 ---|R2| TN7[Turn-by-turn navigation]
+    Activity3 ---|R2| TN8[Connection safeguards]
+    
+    Activity3 ---|R3| TN9[AR directions]
+    Activity3 ---|R3| TN10[Crowd indicators]
+    Activity3 ---|R3| TN11[Weather routing]
+    Activity3 ---|R3| TN12[Offline capability]
+    
+    Activity3 ---|R4| TN13[Cross-border navigation]
+    Activity3 ---|R4| TN14[Rural transit tracking]
+    Activity3 ---|R4| TN15[Multi-language support]
+    Activity3 ---|R4| TN16[Carbon tracking]
+    
+    %% Activity 4: MANAGE & PERSONALIZE
+    Activity4 ---|R1| MP1[Basic user accounts]
+    Activity4 ---|R1| MP2[Language selection]
+    Activity4 ---|R1| MP3[Save locations]
+    
+    Activity4 ---|R2| MP4[Enhanced profiles]
+    Activity4 ---|R2| MP5[Preference settings]
+    Activity4 ---|R2| MP6[Saved routes]
+    Activity4 ---|R2| MP7[Basic notifications]
+    
+    Activity4 ---|R3| MP8[Advanced preferences]
+    Activity4 ---|R3| MP9[Smart notifications]
+    Activity4 ---|R3| MP10[Cross-device sync]
+    Activity4 ---|R3| MP11[Journey analytics]
+    
+    Activity4 ---|R4| MP12[Travel statistics]
+    Activity4 ---|R4| MP13[Impact dashboard]
+    Activity4 ---|R4| MP14[Regional preferences]
+    Activity4 ---|R4| MP15[Journey archives]
+    
+    %% Activity 5: PROVIDE FEEDBACK
+    Activity5 ---|R1| PF1[Basic issue reporting]
+    Activity5 ---|R1| PF2[Star rating system]
+    
+    Activity5 ---|R2| PF3[Categorized reporting]
+    Activity5 ---|R2| PF4[Detailed ratings]
+    Activity5 ---|R2| PF5[In-app responses]
+    Activity5 ---|R2| PF6[Customer service chat]
+    
+    Activity5 ---|R3| PF7[Community platform]
+    Activity5 ---|R3| PF8[Gamified feedback]
+    Activity5 ---|R3| PF9[Public voting]
+    Activity5 ---|R3| PF10[User testing program]
+    
+    Activity5 ---|R4| PF11[Regional forum]
+    Activity5 ---|R4| PF12[Hackathons]
+    Activity5 ---|R4| PF13[Citizen planning]
+    Activity5 ---|R4| PF14[Open data contribution]
+    
+    %% Admin Backbone (simplified)
+    Backbone ---|Admin| AdminB[Admin Functions]
+    AdminB --- Admin1[FLEET MANAGEMENT]
+    AdminB --- Admin2[DATA & ANALYTICS]
+    AdminB --- Admin3[SYSTEM ADMIN]
+    
+    %% Legend
+    Legend((LEGEND))
+    R1[Release 1: Core Navigation]
+    R2[Release 2: Enhanced Experience]
+    R3[Release 3: Smart Mobility]
+    R4[Release 4: Regional Integration]
+    
+    Legend --- R1
+    Legend --- R2
+    Legend --- R3
+    Legend --- R4
+    
+    class Backbone,AdminB backbone
+    class Activity1,Activity2,Activity3,Activity4,Activity5,Admin1,Admin2,Admin3 activity
+    class DP1,DP2,DP3,DP4,PV1,PV2,PV3,PV4,TN1,TN2,TN3,TN4,MP1,MP2,MP3,PF1,PF2 release1
+    class DP5,DP6,DP7,DP8,DP9,PV5,PV6,PV7,PV8,TN5,TN6,TN7,TN8,MP4,MP5,MP6,MP7,PF3,PF4,PF5,PF6 release2
+    class DP10,DP11,DP12,DP13,DP14,PV9,PV10,PV11,PV12,TN9,TN10,TN11,TN12,MP8,MP9,MP10,MP11,PF7,PF8,PF9,PF10 release3
+    class DP15,DP16,DP17,DP18,PV13,PV14,PV15,PV16,TN13,TN14,TN15,TN16,MP12,MP13,MP14,MP15,PF11,PF12,PF13,PF14 release4
+    class R1 release1
+    class R2 release2
+    class R3 release3
+    class R4 release4
