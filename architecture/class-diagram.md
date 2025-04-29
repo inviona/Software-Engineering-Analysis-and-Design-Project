@@ -13,4 +13,4 @@ This diagram represents the **Class Diagram** for a University Online Learning P
   - Course: course_id, title, description
   - Assignment: assignment_id, due_date, course_id
 
-
+![Class Diagram](diagrams/class-diagram.svg)
