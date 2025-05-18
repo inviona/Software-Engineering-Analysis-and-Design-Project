@@ -1,0 +1,161 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.2 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.2">
+  <diagram name="Page-1" id="1IHqY2q4HNXBK8YGIGw1">
+    <mxGraphModel dx="640" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="COIA-dCfh3c7JLxxRl7p-1" target="COIA-dCfh3c7JLxxRl7p-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-1" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="1">
+          <mxGeometry x="399" y="80" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="COIA-dCfh3c7JLxxRl7p-2" target="COIA-dCfh3c7JLxxRl7p-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-10" value="Opens App" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="COIA-dCfh3c7JLxxRl7p-9">
+          <mxGeometry x="-0.15" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-2" value="App Clossed" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="369" y="150" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="COIA-dCfh3c7JLxxRl7p-3" target="COIA-dCfh3c7JLxxRl7p-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-12" value="Begin Planning" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="COIA-dCfh3c7JLxxRl7p-11">
+          <mxGeometry x="-0.25" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="COIA-dCfh3c7JLxxRl7p-3" target="COIA-dCfh3c7JLxxRl7p-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-14" value="Check Saved" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="COIA-dCfh3c7JLxxRl7p-13">
+          <mxGeometry x="-0.0847" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-3" value="App Opened" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="376" y="230" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="COIA-dCfh3c7JLxxRl7p-4" target="COIA-dCfh3c7JLxxRl7p-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-16" value="Select Saved Route" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="COIA-dCfh3c7JLxxRl7p-15">
+          <mxGeometry x="-0.12" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-4" value="Saved Routes" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="570" y="230" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="COIA-dCfh3c7JLxxRl7p-5" target="COIA-dCfh3c7JLxxRl7p-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-20" value="Enter Start" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="COIA-dCfh3c7JLxxRl7p-19">
+          <mxGeometry x="-0.1961" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-5" value="Location Input" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="371" y="320" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="COIA-dCfh3c7JLxxRl7p-6" target="COIA-dCfh3c7JLxxRl7p-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-22" value="Enter Destination" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="COIA-dCfh3c7JLxxRl7p-21">
+          <mxGeometry x="-0.082" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-6" value="Destination Input" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="COIA-dCfh3c7JLxxRl7p-7" target="COIA-dCfh3c7JLxxRl7p-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-32" value="Select Route" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="COIA-dCfh3c7JLxxRl7p-31">
+          <mxGeometry x="-0.04" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-7" value="Route Selection" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="570" y="320" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="COIA-dCfh3c7JLxxRl7p-17" target="COIA-dCfh3c7JLxxRl7p-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-24" value="Set Time" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="COIA-dCfh3c7JLxxRl7p-23">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-17" value="Time Preference" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="361" y="490" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="COIA-dCfh3c7JLxxRl7p-18" target="COIA-dCfh3c7JLxxRl7p-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="565" />
+              <mxPoint x="500" y="343" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-26" value="Display Routes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="COIA-dCfh3c7JLxxRl7p-25">
+          <mxGeometry x="0.3196" y="3" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-18" value="Route Options" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="565" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="COIA-dCfh3c7JLxxRl7p-27" target="COIA-dCfh3c7JLxxRl7p-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-34" value="Disruption" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="COIA-dCfh3c7JLxxRl7p-33">
+          <mxGeometry x="0.4215" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="COIA-dCfh3c7JLxxRl7p-27" target="COIA-dCfh3c7JLxxRl7p-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-36" value="Arrive at Destination" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="COIA-dCfh3c7JLxxRl7p-35">
+          <mxGeometry x="-0.049" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-27" value="Journey Active" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="570" y="410" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="COIA-dCfh3c7JLxxRl7p-28" target="COIA-dCfh3c7JLxxRl7p-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-38" value="Arrive at Destination" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="COIA-dCfh3c7JLxxRl7p-37">
+          <mxGeometry x="-0.275" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-28" value="Journey Active" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="570" y="490" width="102" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="COIA-dCfh3c7JLxxRl7p-29" target="COIA-dCfh3c7JLxxRl7p-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-41" value="Close App" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="COIA-dCfh3c7JLxxRl7p-40">
+          <mxGeometry x="-0.2154" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-29" value="Journey Complete" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="570" y="570" width="112" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="COIA-dCfh3c7JLxxRl7p-30" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="611" y="660" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
